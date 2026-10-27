@@ -52,7 +52,11 @@ Markdown → GitHub commit → GitHub Actions → MkDocs build
 
 ## 5. Using Obsidian
 
-Install [Obsidian](https://obsidian.md/), download the repository, and open the `docs` directory as a vault. Edit a Markdown document and save it. Commit and push the changes to update the site.
+I installed [Obsidian](https://obsidian.md/) to work with Markdown documentation files. After downloading my GitHub repository as a ZIP file and extracting it, I opened the project folder as a vault in Obsidian.
+
+I was then able to access and view the Markdown files, including `week-1.md`, which contains the documentation for this assignment.
+
+Although Obsidian allows me to edit these files locally, changes are not automatically synchronized with GitHub because I downloaded the repository as a ZIP file rather than cloning it using Git. To update the published website, I need to upload the modified files to GitHub, where GitHub Actions automatically rebuilds and deploys the website.
 
 ## 6. Optional local preview
 
