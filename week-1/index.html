@@ -614,17 +614,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#screenshot-gallery-images-to-be-uploaded" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Screenshot gallery — images to be uploaded
-      
-    </span>
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -879,17 +868,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#screenshot-gallery-images-to-be-uploaded" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Screenshot gallery — images to be uploaded
-      
-    </span>
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -1027,26 +1005,21 @@
 <h2 id="7-evidence-from-the-website-setup">7. Evidence from the website setup</h2>
 <p>The following screenshots record the repository, publishing system, documentation editor, and completed website. The image files are being prepared for upload to the repository.</p>
 <h3 id="github-repository">GitHub repository</h3>
+<p><img alt="GitHub repository Code tab showing website source files" src="../assets/images/github-repository.png" /></p>
 <p>The repository named <code>gaminghub492/digital-fabrication</code> contains the Markdown documentation in <code>docs/</code>, a <code>mkdocs.yml</code> configuration file, the package requirements, and the automated workflow under <code>.github/workflows/</code>. This separation keeps editable source files distinct from the generated website.</p>
 <h3 id="github-actions-and-deployment">GitHub Actions and deployment</h3>
+<p><img alt="GitHub Actions showing successful website deployment workflows" src="../assets/images/github-actions.png" /></p>
 <p>The Actions page shows the <strong>Prevent concurrent MkDocs Pages deployments</strong> workflow completing successfully, alongside the GitHub Pages publishing workflow. Each update to the main branch can trigger a rebuild, so changes to the documentation can appear on the public website without manually uploading generated HTML.</p>
 <h3 id="editing-documentation-using-obsidian">Editing documentation using Obsidian</h3>
+<p><img alt="Obsidian Markdown editor displaying the Week 1 documentation" src="../assets/images/obsidian-week-1.png" /></p>
 <p>I installed Obsidian, downloaded and extracted the documentation project, and opened it as a vault. The editor displays <code>week-1.md</code> alongside the other Markdown pages. Markdown headings, tables, and text can be edited directly. Because this is an extracted ZIP rather than a Git clone, changes saved locally do not automatically update GitHub.</p>
 <h3 id="published-mkdocs-website">Published MkDocs website</h3>
+<p><img alt="Published Digital Fabrication website homepage" src="../assets/images/published-website.png" /></p>
 <p>The public site at <a href="https://gaminghub492.github.io/digital-fabrication/">Efe | Digital Fabrication</a> displays the Material for MkDocs theme and navigation for Home, About, Week 1, Future Projects, and Resources. This confirms the generated website is publicly viewable.</p>
 <h3 id="problem-encountered-and-solution">Problem encountered and solution</h3>
 <p>During initial setup, the website source files were committed separately in quick succession. This triggered overlapping GitHub Actions runs, several of which attempted to publish to the <code>gh-pages</code> branch at nearly the same time. The error log showed a rejected push to <code>gh-pages</code>, because its branch reference had changed since a deployment started. In other words, the website build itself succeeded, but competing deployments interfered with publishing.</p>
 <p>The workflow was updated to use a <strong>concurrency group</strong> that prevents simultaneous publishing jobs, and to retrieve full Git history. A subsequent run completed successfully, and the MkDocs website became accessible.</p>
 <p><strong>What I learned:</strong> Git tracks versions of source files; GitHub stores those files online; Obsidian edits Markdown; MkDocs generates a website from Markdown; and GitHub Actions with GitHub Pages publishes the resulting site. The deployment problem demonstrated why automated publishing jobs should not overwrite the same branch concurrently.</p>
-<h3 id="screenshot-gallery-images-to-be-uploaded">Screenshot gallery — images to be uploaded</h3>
-<p>The four supporting screenshots have been selected and are being prepared as separate repository assets. Their planned filenames are:</p>
-<ul>
-<li><code>docs/assets/images/github-repository.png</code> — GitHub Code tab showing source files</li>
-<li><code>docs/assets/images/github-actions.png</code> — successful Actions workflows</li>
-<li><code>docs/assets/images/obsidian-week-1.png</code> — Obsidian displaying Week 1 documentation</li>
-<li><code>docs/assets/images/published-website.png</code> — published MkDocs homepage</li>
-</ul>
-<p>The images will be embedded here after they are uploaded. This avoids publishing broken image links.</p>
 <h2 id="7-evidence-and-reflection">7. Evidence and reflection</h2>
 <ul>
 <li>[ ] Create the GitHub repository and capture a screenshot.</li>
