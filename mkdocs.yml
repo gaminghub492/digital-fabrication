@@ -1,0 +1,34 @@
+site_name: Efe | Digital Fabrication
+site_url: https://gaminghub492.github.io/digital-fabrication/
+repo_url: https://github.com/gaminghub492/digital-fabrication
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - content.code.copy
+nav:
+  - Home: index.md
+  - About: about.md
+  - Week 1: week-1.md
+  - Future Projects: projects.md
+  - Resources: resources.md
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+extra_css:
+  - assets/stylesheets/extra.css
