@@ -2,8 +2,8 @@
 
 **Goal:** Create a documentation website using GitHub Pages, Markdown, and MkDocs.
 
-!!! warning "Evidence pending"
-    The procedure below describes the website setup. Screenshots and observations should be added after the steps have been performed; they have not been invented.
+!!! success "Website published and documented"
+    The GitHub repository, successful deployment, Obsidian setup, and published website are documented with screenshots below. Local Markdown editing and synchronization through Git remain optional next steps to practise.
 
 ## 1. Understanding the tools
 
@@ -76,7 +76,7 @@ git push
 
 ## 7. Evidence from the website setup
 
-The following screenshots record the repository, publishing system, documentation editor, and completed website. The image files are being prepared for upload to the repository.
+The screenshots below show the repository, successful publishing workflow, Obsidian editor, and completed website. All four images are stored in this repository.
 
 ### GitHub repository
 
@@ -114,22 +114,23 @@ The workflow was updated to use a **concurrency group** that prevents simultaneo
 
 **What I learned:** Git tracks versions of source files; GitHub stores those files online; Obsidian edits Markdown; MkDocs generates a website from Markdown; and GitHub Actions with GitHub Pages publishes the resulting site. The deployment problem demonstrated why automated publishing jobs should not overwrite the same branch concurrently.
 
-## 7. Evidence and reflection
+## 8. Completion checklist and reflection
 
-- [ ] Create the GitHub repository and capture a screenshot.
-- [ ] Upload the source and show the repository structure.
-- [ ] Confirm successful deployment and capture a screenshot.
-- [ ] Visit and screenshot the live website.
-- [ ] Install Obsidian and open the Markdown documents.
-- [ ] Edit a document, save it, and record the result.
-- [ ] Explain any errors and how they were solved.
+- [x] Created the public GitHub repository.
+- [x] Uploaded the website source and documented its structure.
+- [x] Confirmed successful deployment and recorded a screenshot.
+- [x] Opened and photographed the published website.
+- [x] Installed Obsidian and opened the downloaded Markdown documentation.
+- [x] Documented the deployment error and its solution.
+- [x] Added the four evidence screenshots to the Week 1 documentation.
+- [ ] Practise making and saving a new change in Obsidian, then upload that change to GitHub. This is a future practice step, not a claim of completed work.
 
-### Reflection prompts
+### Reflection
 
-**What worked?** Explain the steps you completed and how you verified them.
+**What worked?** The source files were organized in GitHub, MkDocs generated the documentation website, and GitHub Pages made it available publicly. A successful deployment and screenshots of the finished site confirmed the outcome.
 
-**What problems occurred?** Record errors, their causes, and the fixes you used.
+**What problems occurred?** Several overlapping GitHub Actions runs attempted to update the same `gh-pages` branch, leading to rejected pushes. Setting a concurrency group for publishing resolved the conflict.
 
-**What did I learn?** Describe how version control, Markdown, static-site generation, and hosting work together.
+**What did I learn?** Markdown provides a simple format for recording technical work, while MkDocs transforms it into a navigable website. GitHub stores the source and its revision history, and GitHub Actions automates publication. Obsidian can be used to edit the local Markdown files, but a downloaded ZIP does not automatically synchronize changes to GitHub.
 
 See [Resources](resources.md) for the course materials.
