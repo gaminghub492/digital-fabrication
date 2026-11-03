@@ -4,10 +4,11 @@ Welcome to my digital fabrication documentation website. My name is **Efe**, and
 
 ## Explore
 
-- [Week 1 — Website Development](week-1.md): tools, source structure, and publication workflow.
+- [Assignment 1 — Documentation Website](week-1.md): tools, source structure, and publication workflow.
+- [Assignment 2 — Modular 3D Rocket](assignment-2.md): Onshape design, STL exports, and planned printing documentation.
 - [About Me](about.md): my technical interests and learning goals.
 - [Future Projects](projects.md): documentation for upcoming assignments.
 - [Resources](resources.md): course references.
 
-!!! info "Documentation status"
-    Week 1 includes an instructional workflow. Screenshots and reflections must be added after completing the steps.
+!!! info "Current assignment status"
+    Assignment 1 is documented with screenshots. Assignment 2 contains the completed CAD work and will be updated with a downloadable STL ZIP and photographs after the physical print.
