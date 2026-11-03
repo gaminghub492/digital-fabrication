@@ -1,4 +1,4 @@
-# Week 1 — Website Development
+# Assignment 1 — Documentation Website
 
 **Goal:** Create a documentation website using GitHub Pages, Markdown, and MkDocs.
 
