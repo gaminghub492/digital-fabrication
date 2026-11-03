@@ -25,17 +25,17 @@ The STL files contain triangle meshes suitable for importing into slicer softwar
 
 | File | Approximate bounding-box dimensions* | Purpose |
 | --- | --- | --- |
-| Part Studio 1.stl | 3.4 × 3.4 × 9.0 mm | Individual component |
-| Part Studio 2.stl | 15.2 × 7.5 × 35.1 mm | Individual component |
-| Part Studio 3.stl | 28.8 × 28.8 × 59.9 mm | Individual component |
-| Part Studio 4.stl | 8.4 × 8.4 × 15.2 mm | Individual component |
-| Part Studio 5.stl | 28.8 × 28.8 × 36.0 mm | Individual component |
-| Part Studio 6.stl | 14.3 × 14.3 × 37.6 mm | Individual component |
-| Part Studio 7.stl | 28.8 × 28.8 × 18.0 mm | Individual component |
-| Part Studio 8.stl | 8.4 × 8.4 × 33.0 mm | Individual component |
-| Part Studio 9.stl | 14.3 × 14.3 × 55.0 mm | Individual export requiring mesh review |
-| Assembly 1.stl | 59.2 × 59.2 × 205.7 mm | Assembled export |
-| Assembly 2.stl | 105.5 × 60.5 × 59.9 mm | Additional assembly export |
+| [Part Studio 1.stl](assets/downloads/Efe_Modular_Rocket_STL_Files.zip) | 3.4 × 3.4 × 9.0 mm | Individual component |
+| [Part Studio 2.stl](assets/downloads/Efe_Modular_Rocket_STL_Files.zip) | 15.2 × 7.5 × 35.1 mm | Individual component |
+| [Part Studio 3.stl](assets/downloads/Efe_Modular_Rocket_STL_Files.zip) | 28.8 × 28.8 × 59.9 mm | Individual component |
+| [Part Studio 4.stl](assets/downloads/Efe_Modular_Rocket_STL_Files.zip) | 8.4 × 8.4 × 15.2 mm | Individual component |
+| [Part Studio 5.stl](assets/downloads/Efe_Modular_Rocket_STL_Files.zip) | 28.8 × 28.8 × 36.0 mm | Individual component |
+| [Part Studio 6.stl](assets/downloads/Efe_Modular_Rocket_STL_Files.zip) | 14.3 × 14.3 × 37.6 mm | Individual component |
+| [Part Studio 7.stl](assets/downloads/Efe_Modular_Rocket_STL_Files.zip) | 28.8 × 28.8 × 18.0 mm | Individual component |
+| [Part Studio 8.stl](assets/downloads/Efe_Modular_Rocket_STL_Files.zip) | 8.4 × 8.4 × 33.0 mm | Individual component |
+| [Part Studio 9.stl](assets/downloads/Efe_Modular_Rocket_STL_Files.zip) | 14.3 × 14.3 × 55.0 mm | Individual export requiring mesh review |
+| [Assembly 1.stl](assets/downloads/Efe_Modular_Rocket_STL_Files.zip) | 59.2 × 59.2 × 205.7 mm | Assembled export |
+| [Assembly 2.stl](assets/downloads/Efe_Modular_Rocket_STL_Files.zip) | 105.5 × 60.5 × 59.9 mm | Additional assembly export |
 
 *Dimensions are measured from the STL mesh bounds, rounded to 0.1 mm. They describe each file's full extents, not necessarily the nominal CAD dimensions. They assume the exported coordinates are in millimeters.*
 
@@ -83,9 +83,13 @@ These are **planned actions**, not completed manufacturing results.
 
 ## 7. Open-source design files
 
-I have exported the model as **11 STL files**: nine Part Studio exports and two Assembly exports. They have been collected into the ZIP archive **`Efe_Modular_Rocket_STL_Files.zip`**.
+**[Download all 11 STL files — Efe_Modular_Rocket_STL_Files.zip](assets/downloads/Efe_Modular_Rocket_STL_Files.zip)**
 
-**File publication:** The ZIP has been prepared but still needs to be uploaded to this GitHub repository. After upload, this section will contain the direct download link. The STL files are mesh exports; an editable Onshape project link or STEP exports could also be added later for easier modification.
+The ZIP archive contains **nine Part Studio STL exports and two Assembly STL exports**. It is hosted in this site's repository and can be downloaded and extracted for inspection, modification in compatible software, and print preparation.
+
+The filename links in the **Recorded STL exports** table above download the **same complete ZIP package**. The 11 STL files are available inside the archive, rather than as individually hosted downloads.
+
+STL stores triangulated surface meshes; editable STEP exports or a public Onshape project link can be added later to make downstream CAD modifications easier.
 
 ## 8. Photos of the printed rocket — to be added
 
