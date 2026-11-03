@@ -22,7 +22,8 @@ theme:
 nav:
   - Home: index.md
   - About: about.md
-  - Week 1: week-1.md
+  - Assignment 1: week-1.md
+  - Assignment 2: assignment-2.md
   - Future Projects: projects.md
   - Resources: resources.md
 plugins:
